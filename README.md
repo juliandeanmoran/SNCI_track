@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# SNCI_track
-Channel-align, autotrack, proofread, and plot dual-channel 2D calcium imaging experiments.
-=======
 ## SNCI_track
 Align GCaMP and RFP channels, autotrack, and generate traces for C. elegans small-number calcium imaging (SNCI) videos recorded from a single 2D plane.
 
@@ -105,4 +101,3 @@ Align GCaMP and RFP channels, autotrack, and generate traces for C. elegans smal
     * .tsv of average pixel intensity data for RFP, GFP, and GFP / RFP will automatically save to disk
 
     + if GUI does not close and script appears to stall, try clicking close (X) button on GUI window again; you may need to do this after every time you close another window (e.g. plot window, test frame window); this is a known issue if using some versions of tkinter; author is currently working on fixing it
->>>>>>> master
