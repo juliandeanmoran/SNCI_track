@@ -1,9 +1,13 @@
-## SNCI_track
-Align GCaMP and RFP channels, autotrack, and generate traces for C. elegans small-number calcium imaging (SNCI) videos recorded from a single 2D plane.
+## :mushroom: SNCI_track
+Align GCaMP and RFP channels, autotrack, and generate traces for ***C. elegans*** small-number calcium imaging (SNCI) videos recorded from a single 2D plane.
+
+Disclaimer: you probably won't have much interest in this code unless you do ***C. elegans*** functional imaging using a compound fluorescence microscope.
 
 
 
-## Installation
+
+
+## :seedling: Installation
 
 1. clone git repository:
     navigate to dir you want to clone to
@@ -23,10 +27,12 @@ Align GCaMP and RFP channels, autotrack, and generate traces for C. elegans smal
     - PIL
     - skimage
     - threading
+
+    note: i would write a requirements.txt file, but you're better off downloading the requirements directly
     
 
 
-## Running SNCI_track
+## :leaves: Running SNCI_track
 
 1. align GFP and RFP channels
     - ensure input video is saved as single .tif
