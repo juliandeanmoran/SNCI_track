@@ -1,7 +1,7 @@
 ## :mushroom: SNCI_track
 Align GCaMP and RFP channels, autotrack, and generate traces for ***C. elegans*** small-number calcium imaging (SNCI) videos recorded from a single 2D plane.
 
-Disclaimer: you probably won't have much interest in this code unless you do ***C. elegans*** functional imaging using a compound fluorescence microscope.
+Disclaimer: you probably won't have much interest in this tool unless you do ***C. elegans*** functional imaging using a compound fluorescence microscope.
 
 
 
