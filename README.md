@@ -31,6 +31,9 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     - threading
 
     Because installation requires mix of Conda and Pip, libraries must be downloaded manually.
+
+3. Install Fiji / ImageJ to your machine
+    - link: https://imagej.net/software/fiji/downloads
     
 
 
