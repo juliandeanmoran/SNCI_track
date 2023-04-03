@@ -47,7 +47,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
 
 
 2. Convert output aligned .tif to .avi
-    - open Fiji / imageJ
+    - open Fiji / ImageJ
     - File > Open > #open output aligned .tif
     - File > Save as > AVI > Compression=None, Frame Rate=#recording frame rate > OK > #give same file name as aligned .tif, in same dir
 
