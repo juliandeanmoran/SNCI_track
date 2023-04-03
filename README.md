@@ -19,9 +19,9 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     ```
 
 
-2. Install following libraries to current environment (prefer conda over pip), except for ffmpeg:
+2. Install following libraries to current environment (prefer Conda over Pip), except for ffmpeg:
     - cv2 (version 4.2.0 -- otherwise SNCI_track won't run)
-    - ffmpeg (use pip to install instead)
+    - ffmpeg (use Pip to install instead)
     - imutils
     - numpy
     - matplotlib
