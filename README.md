@@ -11,7 +11,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
 
 ## :seedling: Installation
 
-1. clone git repository:
+1. Clone git repository:
     navigate to dir you want to clone to
 
     ```bash
@@ -19,7 +19,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     ```
 
 
-2. install following libraries to current environment (prefer conda over pip), except for ffmpeg:
+2. Install following libraries to current environment (prefer conda over pip), except for ffmpeg:
     - cv2 (version 4.2.0 -- otherwise SNCI_track won't run)
     - ffmpeg (use pip to install instead)
     - imutils
@@ -36,7 +36,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
 
 ## :leaves: Running SNCI_track
 
-1. align GFP and RFP channels
+1. Align GFP and RFP channels
     - ensure input video is saved as single .tif
     - open JM_areaBasedAlignment.py in python IDE of choice (e.g. VScode)
     - follow instructions in JM_area_based_alignment.py's section 01 doc string
@@ -46,13 +46,13 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     - output aligned .tif automatically writes to SNCI_track/JM_areaBasedAlignmentOutput/
 
 
-2. convert output aligned .tif to .avi
+2. Convert output aligned .tif to .avi
     - open Fiji / imageJ
     - File > Open > #open output aligned .tif
     - File > Save as > AVI > Compression=None, Frame Rate=#recording frame rate > OK > #give same file name as aligned .tif, in same dir
 
 
-3. set up autotracker run
+3. Set up autotracker run
     - open SNCI_track_autotrack_masterScript.py in python IDE of choice
 
     * set path variable to full path for JM_areaBasedAlignmentOutput dir
@@ -79,7 +79,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     - run SNCI_track_autotrack_masterScript.py
 
     
-4. operate autotracker GUI
+4. Operate autotracker GUI
     - GUI will open automatically when running SNCI_track_autotrack_masterScript.py
     + left panel displays RFP channel
     * right panel displays GFP channel
@@ -96,7 +96,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
 
 
 
-5. save plots, test frames, and data .tsv to disk (saves automatically to ./SNCI_track_autotrack_output)
+5. Save plots, test frames, and data .tsv to disk (saves automatically to ./SNCI_track_autotrack_output)
 
     * calcium imaging trace plot will automatically display
     
@@ -108,4 +108,4 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     
     * .tsv of average pixel intensity data for RFP, GFP, and GFP / RFP will automatically save to disk
 
-    + if GUI does not close and script appears to stall, try clicking close (X) button on GUI window again; you may need to do this after every time you close another window (e.g. plot window, test frame window); this is a known issue if using some versions of tkinter; author is currently working on fixing it
+    + if GUI does not close and script appears to stall, try clicking close (X) button on GUI window again; you may need to do this after every time you close another window (e.g. plot window, test frame window); this is a known issue if using some versions of TKinter
