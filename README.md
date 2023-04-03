@@ -30,7 +30,7 @@ Disclaimer: you probably won't have much interest in this tool unless you do *C.
     - skimage
     - threading
 
-    note: i would write a requirements.txt file, but you're better off downloading the requirements directly
+    Because installation requires mix of Conda and Pip, libraries must be downloaded manually.
     
 
 
