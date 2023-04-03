@@ -203,14 +203,3 @@ if os.path.isdir(outputPath) == False:
 
 titleTemp = outputPath + fileName.split('.')[0] + '_aligned.tif'
 io.imsave(titleTemp, outputStack)
-
-
-
-
-
-
-
-
-
-
-bp = None
