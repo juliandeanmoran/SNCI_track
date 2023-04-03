@@ -303,12 +303,6 @@ bp = None
 
 
 '''   
-problems
-
-    sizeCoeff has no value
-        please define it as a variable in your autotrackergui class
-
-
 to do; polishing
 
     change output folder directories such that they are stored under one ./output_temp dir
@@ -317,12 +311,8 @@ to do; polishing
 
     implement run-from-terminal functionality
 
-    implement version control w/ numbering system (start making git branches)
-
     automatically output a .txt showing input parameters
         e.g. use_somaShape
         e.g. cvrg
-        e.g. version control
-
-    figure out how to run .py scripts from GPU / minimise RAM stick usage
+        e.g. version
 '''
